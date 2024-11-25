@@ -15,6 +15,6 @@ public class WaffeAnimationsController : MonoBehaviour
     public void OnReload()
     {
         Debug.Log("Reload");
-        Karabiner98KAnimator.SetTrigger("Reload");
+        Karabiner98KAnimator.SetTrigger("Reload"); //ich kann nicht reloaden
     }
 }
